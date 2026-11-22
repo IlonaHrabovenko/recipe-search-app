@@ -1,7 +1,7 @@
 # Testowanie i Jakość Oprogramowania
 
 # Autor
-Imię i nazwisko: [Wpisz swoje imię i nazwisko]
+Imię i nazwisko: Ilona Hrabovenko
 
 # Temat projektu
 Aplikacja do wyszukiwania przepisów na podstawie składników
