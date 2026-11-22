@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co dziś ugotować?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header class="header">
+        <h1> Co dziś ugotować?</h1>
+        <p>Znajdź przepis na podstawie składników, które masz w domu.</p>
+    </header>
+
+    <main class="container">
+
+        <form method="GET" action="/" class="search-form">
+            <input
+                type="text"
+                name="ingredients"
+                placeholder="Wpisz składniki, np. jajka, mleko"
+                value="{{ ingredients }}"
+            >
+            <button type="submit">Szukaj przepisów</button>
+        </form>
+
+        <a href="/" class="show-all">Pokaż wszystkie przepisy</a>
+
+        <h2>
+            {% if ingredients %}
+                Wyniki wyszukiwania
+            {% else %}
+                Wszystkie przepisy
+            {% endif %}
+        </h2>
+
+        <p class="count">Znaleziono przepisów: {{ recipes|length }}</p>
+
+        {% if recipes %}
+            <div class="recipe-grid">
+                {% for recipe in recipes %}
+                    <article class="recipe-card">
+                        <h3>{{ recipe.name }}</h3>
+
+                        <p>
+                            <strong>Składniki:</strong>
+                            {{ recipe.ingredients | join(", ") }}
+                        </p>
+
+                        <p class="time">
+                             {{ recipe.time_minutes }} minut
+                        </p>
+
+                        {% if recipe.description %}
+                            <p>{{ recipe.description }}</p>
+                        {% endif %}
+                    </article>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="empty">
+                <h3>Nie znaleziono przepisów </h3>
+                <p>Spróbuj wpisać inne składniki.</p>
+            </div>
+        {% endif %}
+
+    </main>
+
+</body>
+</html>

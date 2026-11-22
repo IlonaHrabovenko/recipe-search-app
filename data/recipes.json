@@ -1,0 +1,353 @@
+
+[
+  {
+    "id": 1,
+    "name": "Jajecznica",
+    "ingredients": ["jajka", "masło", "sól"],
+    "time_minutes": 10,
+    "description": "Klasyczna jajecznica na maśle."
+  },
+  {
+    "id": 2,
+    "name": "Naleśniki",
+    "ingredients": ["mąka", "mleko", "jajka", "cukier"],
+    "time_minutes": 20,
+    "description": "Cienkie naleśniki na słodko."
+  },
+  {
+    "id": 3,
+    "name": "Sałatka grecka",
+    "ingredients": ["pomidor", "ogórek", "feta", "oliwki", "oliwa"],
+    "time_minutes": 15,
+    "description": "Lekka sałatka z fetą i warzywami."
+  },
+  {
+    "id": 4,
+    "name": "Owsianka z bananem",
+    "ingredients": ["płatki owsiane", "mleko", "banan", "miód", "cynamon"],
+    "time_minutes": 10,
+    "description": "Pożywne śniadanie z owocami."
+  },
+  {
+    "id": 5,
+    "name": "Makaron z pomidorami i bazylią",
+    "ingredients": ["makaron", "pomidor", "czosnek", "oliwa", "bazylia"],
+    "time_minutes": 20,
+    "description": "Prosty makaron w sosie pomidorowym."
+  },
+  {
+    "id": 6,
+    "name": "Kanapki z awokado i jajkiem",
+    "ingredients": ["chleb", "awokado", "jajka", "sól", "pieprz"],
+    "time_minutes": 10,
+    "description": "Kanapki z kremowym awokado."
+  },
+  {
+    "id": 7,
+    "name": "Zupa pomidorowa",
+    "ingredients": ["pomidor", "bulion", "marchewka", "śmietana", "makaron"],
+    "time_minutes": 35,
+    "description": "Domowa zupa pomidorowa."
+  },
+  {
+    "id": 8,
+    "name": "Kurczak z ryżem i warzywami",
+    "ingredients": ["kurczak", "ryż", "papryka", "cukinia", "oliwa"],
+    "time_minutes": 30,
+    "description": "Sycący obiad z warzywami."
+  },
+  {
+    "id": 9,
+    "name": "Placuszki serowe",
+    "ingredients": ["twaróg", "jajka", "mąka", "cukier wanilinowy", "masło"],
+    "time_minutes": 20,
+    "description": "Delikatne placuszki z twarogu."
+  },
+  {
+    "id": 10,
+    "name": "Sałatka z tuńczykiem i kukurydzą",
+    "ingredients": ["tuńczyk", "kukurydza", "ogórek", "jajka", "majonez"],
+    "time_minutes": 15,
+    "description": "Sałatka z tuńczykiem i warzywami."
+  },
+  {
+    "id": 11,
+    "name": "Tosty z serem",
+    "ingredients": ["chleb", "ser", "masło"],
+    "time_minutes": 10,
+    "description": "Chrupiące tosty z roztopionym serem."
+  },
+  {
+    "id": 12,
+    "name": "Omlet z warzywami",
+    "ingredients": ["jajka", "papryka", "pomidor", "ser", "masło"],
+    "time_minutes": 15,
+    "description": "Omlet z dodatkiem świeżych warzyw."
+  },
+  {
+    "id": 13,
+    "name": "Ryż z jabłkiem i cynamonem",
+    "ingredients": ["ryż", "jabłko", "mleko", "cynamon", "cukier"],
+    "time_minutes": 25,
+    "description": "Słodki ryż z duszonym jabłkiem."
+  },
+  {
+    "id": 14,
+    "name": "Zupa ogórkowa",
+    "ingredients": ["ogórek kiszony", "ziemniaki", "marchewka", "bulion", "śmietana"],
+    "time_minutes": 40,
+    "description": "Tradycyjna zupa ogórkowa."
+  },
+  {
+    "id": 15,
+    "name": "Placki ziemniaczane",
+    "ingredients": ["ziemniaki", "jajka", "mąka", "cebula", "sól"],
+    "time_minutes": 30,
+    "description": "Chrupiące placki ziemniaczane."
+  },
+  {
+    "id": 16,
+    "name": "Spaghetti bolognese",
+    "ingredients": ["makaron", "mięso mielone", "pomidor", "cebula", "czosnek"],
+    "time_minutes": 35,
+    "description": "Makaron z sosem mięsnym."
+  },
+  {
+    "id": 17,
+    "name": "Pizza margherita",
+    "ingredients": ["mąka", "drożdże", "pomidor", "mozzarella", "bazylia"],
+    "time_minutes": 45,
+    "description": "Klasyczna włoska pizza."
+  },
+  {
+    "id": 18,
+    "name": "Sałatka z kurczakiem",
+    "ingredients": ["kurczak", "sałata", "pomidor", "ogórek", "sos jogurtowy"],
+    "time_minutes": 20,
+    "description": "Lekka sałatka z grillowanym kurczakiem."
+  },
+  {
+    "id": 19,
+    "name": "Ziemniaki pieczone",
+    "ingredients": ["ziemniaki", "oliwa", "czosnek", "rozmaryn", "sól"],
+    "time_minutes": 40,
+    "description": "Aromatyczne ziemniaki z piekarnika."
+  },
+  {
+    "id": 20,
+    "name": "Krem z dyni",
+    "ingredients": ["dynia", "marchewka", "cebula", "bulion", "śmietana"],
+    "time_minutes": 35,
+    "description": "Aksamitna zupa krem z dyni."
+  },
+  {
+    "id": 21,
+    "name": "Kasza z warzywami",
+    "ingredients": ["kasza", "cukinia", "papryka", "cebula", "oliwa"],
+    "time_minutes": 25,
+    "description": "Kasza z podsmażonymi warzywami."
+  },
+  {
+    "id": 22,
+    "name": "Kurczak curry",
+    "ingredients": ["kurczak", "ryż", "mleko kokosowe", "curry", "cebula"],
+    "time_minutes": 30,
+    "description": "Kurczak w aromatycznym sosie curry."
+  },
+  {
+    "id": 23,
+    "name": "Budyń waniliowy",
+    "ingredients": ["mleko", "cukier", "mąka ziemniaczana", "wanilia"],
+    "time_minutes": 15,
+    "description": "Domowy kremowy budyń."
+  },
+  {
+    "id": 24,
+    "name": "Koktajl truskawkowy",
+    "ingredients": ["truskawki", "mleko", "jogurt", "miód"],
+    "time_minutes": 5,
+    "description": "Owocowy koktajl na zimno."
+  },
+  {
+    "id": 25,
+    "name": "Pasta jajeczna",
+    "ingredients": ["jajka", "majonez", "szczypiorek", "sól", "pieprz"],
+    "time_minutes": 15,
+    "description": "Pasta idealna do kanapek."
+  },
+  {
+    "id": 26,
+    "name": "Zupa jarzynowa",
+    "ingredients": ["marchewka", "ziemniaki", "groszek", "kalafior", "bulion"],
+    "time_minutes": 35,
+    "description": "Zupa pełna warzyw."
+  },
+  {
+    "id": 27,
+    "name": "Makaron ze szpinakiem",
+    "ingredients": ["makaron", "szpinak", "czosnek", "śmietana", "ser"],
+    "time_minutes": 20,
+    "description": "Makaron w kremowym sosie szpinakowym."
+  },
+  {
+    "id": 28,
+    "name": "Łosoś pieczony",
+    "ingredients": ["łosoś", "cytryna", "oliwa", "czosnek", "sól"],
+    "time_minutes": 25,
+    "description": "Pieczony łosoś z cytryną."
+  },
+  {
+    "id": 29,
+    "name": "Burgery domowe",
+    "ingredients": ["bułka", "mięso mielone", "sałata", "pomidor", "ser"],
+    "time_minutes": 30,
+    "description": "Domowy burger z warzywami."
+  },
+  {
+    "id": 30,
+    "name": "Gofry",
+    "ingredients": ["mąka", "mleko", "jajka", "cukier", "masło"],
+    "time_minutes": 20,
+    "description": "Puszyste gofry na słodko."
+  },
+  {
+    "id": 31,
+    "name": "Muffinki czekoladowe",
+    "ingredients": ["mąka", "kakao", "jajka", "mleko", "cukier"],
+    "time_minutes": 30,
+    "description": "Wilgotne muffinki z kakao."
+  },
+  {
+    "id": 32,
+    "name": "Sałatka z mozzarellą",
+    "ingredients": ["mozzarella", "pomidor", "bazylia", "oliwa"],
+    "time_minutes": 10,
+    "description": "Sałatka caprese."
+  },
+  {
+    "id": 33,
+    "name": "Fasolka po bretońsku",
+    "ingredients": ["fasola", "kiełbasa", "pomidor", "cebula", "majeranek"],
+    "time_minutes": 50,
+    "description": "Tradycyjne danie z fasoli."
+  },
+  {
+    "id": 34,
+    "name": "Kopytka",
+    "ingredients": ["ziemniaki", "mąka", "jajka", "sól"],
+    "time_minutes": 35,
+    "description": "Domowe kluski ziemniaczane."
+  },
+  {
+    "id": 35,
+    "name": "Pierogi ruskie",
+    "ingredients": ["mąka", "ziemniaki", "twaróg", "cebula", "masło"],
+    "time_minutes": 60,
+    "description": "Pierogi z serem i ziemniakami."
+  },
+  {
+    "id": 36,
+    "name": "Grzanki czosnkowe",
+    "ingredients": ["chleb", "czosnek", "masło", "pietruszka"],
+    "time_minutes": 10,
+    "description": "Chrupiące grzanki z czosnkiem."
+  },
+  {
+    "id": 37,
+    "name": "Sałatka makaronowa",
+    "ingredients": ["makaron", "kukurydza", "ogórek", "szynka", "majonez"],
+    "time_minutes": 20,
+    "description": "Szybka sałatka makaronowa."
+  },
+  {
+    "id": 38,
+    "name": "Leczo",
+    "ingredients": ["papryka", "cukinia", "pomidor", "kiełbasa", "cebula"],
+    "time_minutes": 35,
+    "description": "Warzywne leczo z kiełbasą."
+  },
+  {
+    "id": 39,
+    "name": "Racuchy z jabłkami",
+    "ingredients": ["mąka", "mleko", "jajka", "jabłko", "drożdże"],
+    "time_minutes": 30,
+    "description": "Puszyste racuchy z jabłkami."
+  },
+  {
+    "id": 40,
+    "name": "Krem z brokułów",
+    "ingredients": ["brokuł", "ziemniaki", "bulion", "śmietana", "czosnek"],
+    "time_minutes": 30,
+    "description": "Zielona zupa krem."
+  },
+  {
+    "id": 41,
+    "name": "Tortilla z kurczakiem",
+    "ingredients": ["tortilla", "kurczak", "sałata", "pomidor", "sos jogurtowy"],
+    "time_minutes": 20,
+    "description": "Tortilla z kurczakiem i warzywami."
+  },
+  {
+    "id": 42,
+    "name": "Kasza manna",
+    "ingredients": ["kasza manna", "mleko", "cukier", "masło"],
+    "time_minutes": 10,
+    "description": "Prosta kasza manna na mleku."
+  },
+  {
+    "id": 43,
+    "name": "Pieczone warzywa",
+    "ingredients": ["marchewka", "ziemniaki", "cukinia", "papryka", "oliwa"],
+    "time_minutes": 35,
+    "description": "Warzywa pieczone z oliwą."
+  },
+  {
+    "id": 44,
+    "name": "Pasta z awokado",
+    "ingredients": ["awokado", "cytryna", "czosnek", "sól", "pieprz"],
+    "time_minutes": 5,
+    "description": "Kremowa pasta do pieczywa."
+  },
+  {
+    "id": 45,
+    "name": "Kotlety mielone",
+    "ingredients": ["mięso mielone", "jajka", "bułka tarta", "cebula", "sól"],
+    "time_minutes": 30,
+    "description": "Klasyczne kotlety mielone."
+  },
+  {
+    "id": 46,
+    "name": "Zapiekanka makaronowa",
+    "ingredients": ["makaron", "ser", "szynka", "śmietana", "brokuł"],
+    "time_minutes": 35,
+    "description": "Makaron zapiekany z serem."
+  },
+  {
+    "id": 47,
+    "name": "Deser jogurtowy z owocami",
+    "ingredients": ["jogurt", "truskawki", "banan", "miód", "orzechy"],
+    "time_minutes": 5,
+    "description": "Lekki deser z owocami i jogurtem."
+  },
+  {
+    "id": 48,
+    "name": "Ryż smażony z jajkiem",
+    "ingredients": ["ryż", "jajka", "marchewka", "groszek", "sos sojowy"],
+    "time_minutes": 20,
+    "description": "Smażony ryż z warzywami."
+  },
+  {
+    "id": 49,
+    "name": "Krem z pieczarek",
+    "ingredients": ["pieczarki", "cebula", "bulion", "śmietana", "masło"],
+    "time_minutes": 30,
+    "description": "Kremowa zupa pieczarkowa."
+  },
+  {
+    "id": 50,
+    "name": "Szakszuka",
+    "ingredients": ["jajka", "pomidor", "papryka", "cebula", "czosnek"],
+    "time_minutes": 20,
+    "description": "Jajka duszone w aromatycznym sosie pomidorowym."
+  }
+]
